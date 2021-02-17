@@ -1,0 +1,219 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto Mono';
+    line-height: 1.4;
+}
+a{
+    text-decoration:none;
+}
+p{
+    margin:0.75rem 0;
+}
+.primary{
+    color:#93cb52;
+}
+.container{
+    background:whitesmoke;
+    padding:0 1rem;
+    overflow:hidden;
+    max-width:1100px;
+    margin:auto;
+    
+}
+.center{
+    text-align: center;
+}
+.heading{
+    font-size: 2.5rem;
+    margin:0.7rem;
+    line-height: 2.9rem;
+}
+.m-heading{
+    font-size: 2rem;
+    margin:0.7rem;
+    line-height:1.5rem;
+    text-align: center;
+}
+.py-1{
+    padding:1rem 0;
+}
+.py-2{
+    padding:1rem 0;
+}
+.py-3{
+    padding:1rem 0;
+}
+.p-2{
+    padding:2rem;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    display:flex;
+    height:auto;
+    justify-content: space-between;
+    background:#333;
+    color:white;
+    z-index:1;
+    padding:1rem;
+}
+#navbar ul {
+    display:flex;
+    justify-content: space-between;
+    padding:0.25rem;
+    align-items:center;
+}
+#navbar ul li{
+    list-style:none;
+}
+#navbar ul li a:hover{
+    background:#93cb52;
+}
+#navbar ul li a{
+    color:white;
+    margin-left:0.25rem;
+    margin-right:0.25rem;
+    padding:0.75rem;
+}
+
+ul h1{
+    align-self: flex-start;
+    }
+#showcase{
+     text-align: center;
+     height:100vh;
+     
+     background:url(./sky-1.jpg) no-repeat center center/cover;
+    }
+    .showcase-content{
+        color: white;
+        display:flex;
+        flex-direction: column;
+        height:100%;
+        justify-content: center;
+        align-items: center;
+        padding:0 2rem;
+        position:absolute;
+        top: 65px;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .main{
+        margin-bottom:2rem;
+ }
+ .btn{
+     display: inline-block;
+     padding:0.6rem 2rem;
+     background:#93cb52;
+     margin-top: 1rem;
+     color:white;
+     border-radius:10px;
+}
+.btn-dark{
+    display: inline-block;
+     padding:0.6rem 2rem;
+     background:#333;
+     margin-top: 1rem;
+     color:white;
+     border-radius:10px;
+}
+.btn-dark:hover{
+    background:#444;
+}
+.btn:hover{
+    background:#7ab436;
+}
+#what .items{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.item{
+    padding: 1rem;
+    text-align: center;
+}
+.item i{
+    background:#93cb52;
+    border-radius: 50%;
+    padding:15px;
+}
+#who .who-img{
+    background:url(./who.jpg) no-repeat center center/cover;
+    height:100%;
+    width:50%;
+}
+#who .who-info{
+    text-align: center;
+    background:#333;
+    color:white;
+    width:50%;
+    line-height: 2rem;
+    }
+#who{
+    display:flex;
+    height:25rem;
+}
+#who div{
+    flex:1;
+}
+#who .who-info ul{
+    text-align: left;
+    
+}
+#who .who-info ul li{
+         list-style: none;
+}
+.list{
+    padding:1rem 1rem;
+    line-height: 2rem;
+}
+.items{
+    display:flex;
+    justify-content: space-between;
+}
+#contact {
+    display:flex;
+    color:white;
+}
+#contact .contact-form{
+    background-color:#93cb52;
+    
+
+}
+#contact .map,#contact .contact-form{
+    flex:1;
+}
+#contact .contact-form .form-group{
+    margin:0.75rem;
+}
+#contact .contact-form label{
+    display:block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width:100%;
+    padding:0.5rem;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    padding:0.5rem;
+    background:#333;
+    text-align: center;
+    color:white;
+    }
+
+  
+
+/*footer #ftr{
+    align-self: center;
+    flex:1;
+}
+footer #ftr .last{
+}*/
